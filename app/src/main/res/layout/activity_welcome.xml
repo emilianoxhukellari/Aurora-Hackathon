@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".Welcome" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/less"
+            android:text="Welcome"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/less"
+            android:text="back"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="50sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We help making"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/less" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="your city a"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/less" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="better place"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/less" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="435dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rc_transparent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/less"
+            android:text="See a problem?"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/less"
+            android:text="Report it below!"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/report_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_bg"
+            android:text="Report"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lessbold"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="705dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/rc_transparent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/less"
+            android:text="FAQ"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/less"
+            android:text="Need help? Click the button below!"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/faq_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_bg"
+            android:text="View More"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lessbold"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

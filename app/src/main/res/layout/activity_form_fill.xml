@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".FormFill" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/less"
+            android:text="Report"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="65dp"
+            android:fontFamily="@font/less"
+            android:text="problem"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="50sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/signup_bg" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issue"
+                android:textAllCaps="false"
+                android:textSize="35dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/less" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/less"
+                android:text="Briefly explain the subject"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/form_issue"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/et_bg_black"
+                android:fontFamily="@font/less"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:inputType="textLongMessage" />
+
+            <TextView
+                android:id="@+id/ignore_issue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/less"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textAllCaps="false"
+                android:textSize="35dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/less" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/less"
+                android:text="Select a category from the drop down menu"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/form_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="80dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/et_bg_black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="340dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textAllCaps="false"
+                android:textSize="35dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/less" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/less"
+                android:text="Explain the problem in details"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/form_desc"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="8dp"
+                android:background="@drawable/et_bg_black"
+                android:fontFamily="@font/less"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:gravity="left|top"
+                android:inputType="textLongMessage" />
+
+            <TextView
+                android:id="@+id/ignore_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/less"
+                android:text=""
+                android:textColor="@color/red"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:fontFamily="@font/less"
+            android:text="Click next to take a picture"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/form_next"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="40dp"
+            android:paddingLeft="55dp"
+            android:paddingRight="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_bg"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lessbold"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
